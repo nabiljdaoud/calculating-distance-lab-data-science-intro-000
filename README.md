@@ -153,7 +153,7 @@ distances
 
 The returned array from the above procedure isn't super helpful.  We need to know who each distance is associated with.  
 
-So let's accomplish this by writing a function called `distance_with_neighbor` that works like our distance function but instead of returning an integer, returns a dictionary representing the `second_neighbor`, and also adds in the a key value pair indicating distance from the `first_neighbor`.
+So let's accomplish this by writing a function called `distance_with_neighbor` that works like our distance function but instead of returning an integer, returns a dictionary representing the `second_neighbor`, and also adds in the key-value pair indicating distance from the `first_neighbor`.
 
 
 ```python
